@@ -1,17 +1,26 @@
-const express = require('express');
-const bodyParser = require('body-parser');
+const express = require('express')
+const ModelClass = require('./model.js');
+const storeJson = require('./stores.json');
 const app = express();
-const port = 3000;
+let Model = null;
 
-app.use(bodyParser.json());
-
-app.get('/', (req, res) => {
-  res.send(`<h1>IS THIS WORKING?</h1>`)
+app.get('/setup', async (req, res) => {
+  await Model.setup(storeJson);
+  res.json({success: true});
 });
 
+app.get('/', async (req, res) => {
+  const stores = await Model.getAllStores();
+  res.json(stores);
+})
 
+const startServer = async () => {
+  Model = new ModelClass();
+  await Model.init();
+  await Model.setup(storeJson); // Initialize the model before starting the server
+  app.listen(3000, () => {
+    console.log('Example app listening on port 3000!');
+  });
+}
 
-
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-});
+startServer();
