@@ -2,3 +2,64 @@
     background-color: black;
     color: greenyellow;
 }
+
+.grid-parent {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
+    }
+
+ header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-row-start: 0; 
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 9;
+ }
+
+ #content {
+    grid-row-start: 1; 
+    grid-row-end: 9;
+    grid-column-start: 2;
+    grid-column-end: 9;
+ }
+
+ nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: right;
+    grid-row-start: 0; 
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 11;
+ }
+
+ .main-logo {
+    width: fit-content;
+    grid-row-start: 1; 
+    grid-row-end: 9;
+    grid-column-start: 3;
+    grid-column-end: 9;
+ }
+
+ ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    grid-row-start: 0; 
+    grid-row-end: 1;
+    grid-column-start: 6;
+    grid-column-end: 9;
+ }
+
+ li {
+    width: fit-content;
+ }
+
+
