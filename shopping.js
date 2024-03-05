@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
+
+    if (window.location.pathname.includes('/shopping')) {
+
+    
     const contentDiv = document.getElementById('content');
 
       fetch('http://localhost:3000/stores/all')
@@ -10,4 +14,5 @@ document.addEventListener('DOMContentLoaded', function() {
           });
           contentDiv.innerHTML = storesHTML;
       });
+    }
     });
