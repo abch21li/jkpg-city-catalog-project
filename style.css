@@ -1,6 +1,8 @@
 * {
     background-color: black;
     color: greenyellow;
+    text-decoration: none;
+    font-family: sans-serif;
 }
 
 .grid-parent {
@@ -14,18 +16,43 @@
  header {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     grid-row-start: 0; 
     grid-row-end: 1;
     grid-column-start: 2;
-    grid-column-end: 9;
+    grid-column-end: 11;
  }
 
  #content {
-    grid-row-start: 1; 
-    grid-row-end: 9;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content:space-evenly;
+grid-row-start: 1; 
+grid-row-end: 11;
     grid-column-start: 2;
-    grid-column-end: 9;
+    grid-column-end: 11;
+    overflow: scroll;
+    height:fit-content;
+ }
+
+ p {
+   display: flex;
+   font-size: large;
+   background-color: blue;
+   padding: 2rem;
+   justify-content: center;
+   align-items: center;
+   width: 330px;
+   height: 200px;
+
+   /* height: 200px; */
+   text-transform:uppercase;
+   font-weight: 600;
+   border-style: solid;
+   border-color: greenyellow;
+   border-width: 4px;
  }
 
  nav {
@@ -60,6 +87,8 @@
 
  li {
     width: fit-content;
+    list-style-type: none;
+    text-decoration: none;
  }
 
 

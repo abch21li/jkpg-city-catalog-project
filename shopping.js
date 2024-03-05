@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
       fetch('http://localhost:3000/stores/all')
       .then((response) => response.json())
       .then((stores) => {
-          let storesHTML = '<h1>Shopping in Jönköping</h1>';
+          let storesHTML = '';
           stores.forEach((d) => {
               storesHTML += `<div class="store-card"><p>${d['name']}</p></div>`
           });
