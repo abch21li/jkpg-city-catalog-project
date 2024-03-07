@@ -1,341 +1,409 @@
 [
   {
     "name": "Åhlens",
+    "imagePath": "bg_images/1.jpg",
     "url": "ahlens.se/varuhus/jonkoping?utm_source=google&utm_medium=organic&utm_campaign=business_profile&utm_content=website_link",
     "district": "Öster"
   },
   {
     "name": "Akademibokhandeln",
+    "imagePath": "bg_images/2.jpg",
     "url": "akademibokhandeln.se/butik/jonkoping-c",
     "district": "Öster"
   },
   {
     "name": "Apoteket AB",
+    "imagePath": "bg_images/3.jpg",
     "url": "apoteket.se/apotek/apoteket-ostra-storgatan-jonkoping/",
     "district": null
   },
   {
     "name": "Apotek Hjärtat",
+    "imagePath": "bg_images/4.jpg",
     "url": "apotekhjartat.se/hitta-apotek-hjartat/jonkoping/apotek_hjartat_smedjegatan_2_jonkoping/",
     "district": null
   },
   {
     "name": "Ashur Brud & Fest - Skrädderi",
+    "imagePath": "bg_images/5.jpg",
     "url": "facebook.com/AshuraitaBrudFest/",
     "district": null
   },
   {
     "name": "Asia livs, servicebutik",
+    "imagePath": "bg_images/6.jpg",
     "url": "facebook.com/profile.php?id=100051215441977",
     "district": null
   },
   {
     "name": "Ateljé Creativ i Jönköping/Finrummet",
+    "imagePath": "bg_images/7.jpg",
     "url": "/finrummet.net",
     "district": "Väster"
   },
   {
     "name": "Ateljé KEG",
+    "imagePath": "bg_images/8.jpg",
     "url": "ateljekeg.se",
     "district": "Öster"
   },
   {
     "name": "Atlantis Dive College",
+    "imagePath": "bg_images/9.jpg",
     "url": "atlantis.se",
     "district": "Väster"
   },
   {
     "name": "Bagelle väskboutique",
+    "imagePath": "bg_images/10.jpg",
     "url": null,
     "district": null
   },
   {
     "name": "Balance Ljud och Bild",
+    "imagePath": "bg_images/11.jpg",
     "url": "balance.se",
     "district": null
   },
   {
     "name": "BGA Fotocenter",
+    "imagePath": "bg_images/12.jpg",
     "url": "bgafotocenter.se/jonkoping/",
     "district": "Öster"
   },
   {
     "name": "Bikupan",
+    "imagePath": "bg_images/13.jpg",
     "url": "bikupan.org",
     "district": "Tändsticksområdet"
   },
   {
     "name": "Blankdays",
+    "imagePath": "bg_images/14.jpg",
     "url": "https://blankdays.com/collections/all-products?gclid=CjwKCAjwov6hBhBsEiwAvrvN6EZZ1PsnlSJhnE7bmxINtl0Y0noU3rvCybdt217CGd3-bqMdx3mYRxoCK5EQAvD_BwE",
     "district": "Tändsticksområdet"
   },
   {
     "name": "Boardlife",
+    "imagePath": "bg_images/15.jpg",
     "url": "boardlife.se",
     "district": "Väster"
   },
   {
     "name": "Borgs skor",
+    "imagePath": "bg_images/16.jpg",
     "url": "borgsskor.se/kontakt",
     "district": "Öster"
   },
   {
     "name": "Boutique Lykka",
+    "imagePath": "bg_images/17.jpg",
     "url": "boutiquelykka.se",
     "district": "Öster"
   },
   {
     "name": "Broder Bläck",
+    "imagePath": "bg_images/18.jpg",
     "url": "facebook.com/broderblacktatuering/",
     "district": "Öster"
   },
   {
     "name": "Buketten",
+    "imagePath": "bg_images/19.jpg",
     "url": "instagram.com/bukettenjonkoping/?hl=sv",
     "district": "Öster"
   },
   {
     "name": "Busfrö Nytt & Bytt",
+    "imagePath": "bg_images/20.jpg",
     "url": "busfro.se",
     "district": "Öster"
   },
   {
     "name": "Butiken Noga Utvalt",
+    "imagePath": "bg_images/21.jpg",
     "url": "butikenjkpg.se",
     "district": "Atollen"
   },
   {
     "name": "Carlings",
+    "imagePath": "bg_images/22.jpg",
     "url": "carlings.com/sv/corporate/Butiker/sweden/58f/",
     "district": "Öster"
   },
   {
     "name": "Casa Souk",
+    "imagePath": "bg_images/23.jpg",
     "url": "casasouk.se",
     "district": "Väster"
   },
   {
     "name": "Cervera",
+    "imagePath": "bg_images/24.jpg",
     "url": "cervera.se/hitta-butik/",
     "district": "Öster"
   },
   {
     "name": "Clas Ohlson",
+    "imagePath": "bg_images/25.jpg",
     "url": "clasohlson.com/se/store-finder?q=J%C3%B6nk%C3%B6ping,%20City&latitude=57.78252&longitude=14.17347&source=search",
     "district": "Öster"
   },
   {
     "name": "Coop Atollen",
+    "imagePath": "bg_images/26.jpg",
     "url": "coop.se/butiker-erbjudanden/coop/coop-atollen-jonkoping/",
     "district": "Atollen"
   },
   {
     "name": "Coop Östra Torget",
+    "imagePath": "bg_images/27.jpg",
     "url": "coop.se/butiker-erbjudanden/coop/coop-ostra-torget/",
     "district": "Öster"
   },
   {
     "name": "Copenhagen Luxe",
+    "imagePath": "bg_images/28.jpg",
     "url": "https://copenhagenluxe.dk/",
     "district": "Öster"
   },
   {
     "name": "Day fotografi",
+    "imagePath": "bg_images/29.jpg",
     "url": "dayfotografi.se/",
     "district": null
   },
   {
     "name": "Dinos kemtvätt",
+    "imagePath": "bg_images/30.jpg",
     "url": "dinos.nu",
     "district": "Väster"
   },
   {
     "name": "Din Sko",
+    "imagePath": "bg_images/31.jpg",
     "url": "dinsko.se/stores",
     "district": "Öster"
   },
   {
     "name": "Direkt optik",
+    "imagePath": "bg_images/32.jpg",
     "url": "https://www.direktoptik.se/butiker/jonkoping/ostra-storgatan-29/",
     "district": null
   },
   {
     "name": "Dressman",
+    "imagePath": "bg_images/33.jpg",
     "url": "dressmann.com/no/bedriftssider/finn-butikk/Sweden/Dressmann_Jonkoping/",
     "district": "Öster"
   },
   {
     "name": "Elias Urmästare",
+    "imagePath": "bg_images/34.jpg",
     "url": "facebook.com/profile.php?id=100064073112753",
     "district": null
   },
   {
     "name": "Engströms Urmakeri",
+    "imagePath": "bg_images/35.jpg",
     "url": "engstromsurmakeri.se",
     "district": null
   },
   {
     "name": "Euroex",
+    "imagePath": "bg_images/36.jpg",
     "url": null,
     "district": null
   },
   {
     "name": "Evoke industry",
+    "imagePath": "bg_images/37.jpg",
     "url": null,
     "district": null
   },
   {
     "name": "Fabriken",
+    "imagePath": "bg_images/38.jpg",
     "url": "butikfabriken.se",
     "district": "Atollen"
   },
   {
     "name": "Fiction Prescription",
+    "imagePath": "bg_images/39.jpg",
     "url": "https://www.instagram.com/fiction.prescription.jonkoping/",
     "district": null
   },
   {
     "name": "Forex Bank Väster",
+    "imagePath": "bg_images/40.jpg",
     "url": null,
     "district": "Väster"
   },
   {
     "name": "Foten",
+    "imagePath": "bg_images/41.jpg",
     "url": "https://www.foten.se/",
     "district": null
   },
   {
     "name": "Friendly Corner",
+    "imagePath": "bg_images/42.jpg",
     "url": "https://friendlycorner.se/butiken",
     "district": "Tändsticksområdet"
   },
   {
     "name": "Galleri 701 ramcenter",
+    "imagePath": "bg_images/43.jpg",
     "url": "galleri701-ram.se",
     "district": null
   },
   {
     "name": "Gant",
+    "imagePath": "bg_images/44.jpg",
     "url": "gant.se/stores?lat=57.78261370000001&long=14.1617876&postalCode=j%C3%B6nk%C3%B6ping&radius=10.0",
     "district": "Atollen"
   },
   {
     "name": "Gåvan",
+    "imagePath": "bg_images/45.jpg",
     "url": "gavanjonkoping.se",
     "district": "Öster"
   },
   {
     "name": "Gina Tricot",
+    "imagePath": "bg_images/46.jpg",
     "url": "ginatricot.com/se/find-store",
     "district": "Öster"
   },
   {
     "name": "Go Banana",
+    "imagePath": "bg_images/47.jpg",
     "url": "gobanana.se",
     "district": "Väster"
   },
   {
     "name": "Godis och Tobakshörnan",
+    "imagePath": "bg_images/48.jpg",
     "url": null,
     "district": "Öster"
   },
   {
     "name": "Golden athlete",
+    "imagePath": "bg_images/49.jpg",
     "url": "goldenathlete.se/sv/butiker-2",
     "district": "Öster"
   },
   {
     "name": "Grmawit Store",
+    "imagePath": "bg_images/50.jpg",
     "url": "grmawit.com/",
     "district": "Väster"
   },
   {
     "name": "Guldsmedjan Snarberg",
+    "imagePath": "bg_images/51.jpg",
     "url": "guldsmedjan-snarberg.se",
     "district": "Väster"
   },
   {
     "name": "Hälsokraft",
+    "imagePath": "bg_images/52.jpg",
     "url": "halsokraft.se/butiker?butik=503",
     "district": "Öster"
   },
   {
     "name": "Hemköp",
+    "imagePath": "bg_images/53.jpg",
     "url": "hemkop.se/butik/4674",
     "district": "Väster"
   },
   {
     "name": "Hemmakväll",
+    "imagePath": "bg_images/54.jpg",
     "url": "hemmakvall.se/hitta-butik/",
     "district": "Öster"
   },
   {
     "name": "Hemtex",
+    "imagePath": "bg_images/55.jpg",
     "url": "hemtex.se/hitta-butik/jonkoping",
     "district": "Öster"
   },
   {
     "name": "Hi-fi Klubben",
+    "imagePath": "bg_images/56.jpg",
     "url": "hifiklubben.se/hitta-butik/jonkoping/?gclid=Cj0KCQjwhsmaBhCvARIsAIbEbH4w2ngSDzygBKQSqHVzCSFAplyrpByCMojT6dfo-Xnjcn7P9j_jBn8aAsD0EALw_wcB",
     "district": "Väster"
   },
   {
     "name": "H&M",
+    "imagePath": "bg_images/57.jpg",
     "url": "hm.com/sv_se/customer-service/shoppa-pa-hm/store-locator",
     "district": "Öster"
   },
   {
     "name": "H&M Home",
+    "imagePath": "bg_images/58.jpg",
     "url": "hm.com/sv_se/customer-service/shoppa-pa-hm/store-locator",
     "district": "Öster"
   },
   {
     "name": "Indiska",
+    "imagePath": "bg_images/59.jpg",
     "url": "indiska.com/se/butiker",
     "district": "Öster"
   },
   {
     "name": "Jeansshoppen",
+    "imagePath": "bg_images/60.jpg",
     "url": "jeansshopen.se/sv/kontakt",
     "district": "Öster"
   },
   {
     "name": "JL Sycenter",
+    "imagePath": "bg_images/61.jpg",
     "url": "jlsycenter.se/kontakta-oss/",
     "district": null
   },
   {
     "name": "Jönköpings antik och konsthandel",
+    "imagePath": "bg_images/62.jpg",
     "url": null,
     "district": "Väster"
   },
   {
     "name": "Jönköpings Cigrarrimport",
+    "imagePath": "bg_images/63.jpg",
     "url": "atg.se/jonkopingscigarrimport",
     "district": null
   },
   {
     "name": "KappAhl",
+    "imagePath": "bg_images/64.jpg",
     "url": "www.kappahl.com/sv-SE/kundservice/kundservice/hitta-butik/",
     "district": "Öster"
   },
   {
     "name": "Karin Lund Design",
+    "imagePath": "bg_images/65.jpg",
     "url": "facebook.com/karinlunddesign/",
     "district": null
   },
   {
     "name": "Katrin Bååths Ateljé",
+    "imagePath": "bg_images/66.jpg",
     "url": "https://katrinbaath.se/ateljen/",
     "district": "Tändsticksområdet"
   },
   {
     "name": "Kicks",
+    "imagePath": "bg_images/67.jpg",
     "url": "kicks.se/butiker/jonkoping-smedjegatan",
     "district": "Öster"
   },
   {
     "name": "Kjell & Company",
+    "imagePath": "bg_images/68.jpg",
     "url": "kjell.com/se/butiker/sodra-strandgatan-5",
     "district": "Öster"
   },

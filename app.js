@@ -1,7 +1,7 @@
 const express = require('express')
+const app = express();
 const ModelClass = require('./model.js');
 const storeJson = require('./stores.json');
-const app = express();
 let Model = null;
 
 app.use((req, res, next) => {
