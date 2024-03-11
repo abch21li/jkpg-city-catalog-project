@@ -57,7 +57,7 @@ height:fit-content;
   overflow: hidden; 
   border-style: solid;
   border-color: greenyellow;
-  border-width: 4px;
+  border-width: 10px;
   margin-top: 30px;
  }
 
@@ -158,15 +158,14 @@ height:fit-content;
  }
 
  .hero-message {
-   justify-content: center;
+   flex-direction: column;
    padding: 2rem;
  }
 
  #hero-text {
-   border-style:solid;
-   border-color: blue;
-   background-color: transparent;
-   border-width: 45px;
+   justify-content: center;
+   background-color: blue;
+   border-width: 10px;
  }
 
  #hero-text, h2 {
