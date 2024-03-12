@@ -51,7 +51,6 @@ class Model {
         `, [store.name, store.url, store.district]);
       }
     }
-
   }
 
    // ------ Gets the stores from the database 
