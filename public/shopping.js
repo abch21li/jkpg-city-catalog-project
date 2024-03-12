@@ -9,12 +9,14 @@ document.addEventListener('DOMContentLoaded', function() {
           stores.forEach((store) => {
               const storeName = store['name'];
               const storeClass = 'store-card';
+              const storeUrl = store['url'];
 
-              storesHTML += `
+              storesHTML += `<a href="${storeUrl}">
               <div class="${storeClass}">
-                <p>${storeName}</p>
+                      <p>${storeName}</p>
               </div>
-              `;
+              </a>
+          `;
           });
           contentDiv.innerHTML = storesHTML;
       });
