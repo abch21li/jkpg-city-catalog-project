@@ -1,3 +1,11 @@
+
+/* ----- GLOBAL STYLING -----*/
+* {
+  text-decoration: none;
+  color: greenyellow;
+  font-family: sans-serif;
+}
+
 body, html {
    margin: 0;
    padding: 0;
@@ -8,12 +16,7 @@ body, html {
    overflow: none;
 }
 
-* {
-    text-decoration: none;
-    color: greenyellow;
-    font-family: sans-serif;
-}
-
+/* ----- GRID SETUP ----- | ref: https://css-tricks.com/snippets/css/complete-guide-grid/*/ 
 .grid-parent {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
@@ -22,6 +25,7 @@ body, html {
     grid-row-gap: 6px;
     }
 
+/* ----- NAV STYLING -----*/
  header {
     display: flex;
     position: relative;
@@ -36,7 +40,57 @@ body, html {
     background-color: transparent;
  }
 
- #content {
+ nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: right;
+  grid-row-start: 0; 
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 11;
+  background-color: transparent;
+}
+
+.main-logo h1 {
+  width: fit-content;
+  grid-row-start: 1; 
+  grid-row-end: 9;
+  grid-column-start: 3;
+  grid-column-end: 9;
+  background-color: transparent;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  grid-row-start: 0; 
+  grid-row-end: 1;
+  grid-column-start: 6;
+  grid-column-end: 9;
+  background-color: transparent;
+}
+
+li {
+  width: fit-content;
+  padding: 0.7rem;
+  list-style-type: none;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: large;
+}
+
+li:hover {
+ width: fit-content;
+ list-style-type: none;
+ background-color: blue;
+ font-size: large;
+}
+
+/* ----- PAGE CONTENT STYLING -----*/
+ #shopping-content {
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
@@ -49,6 +103,88 @@ overflow: scroll;
 height:fit-content;
  }
 
+ #events-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-evenly;
+  grid-row-start: 1; 
+  grid-row-end: 9;
+  grid-column-start: 2;
+  grid-column-end: 11;
+  overflow: scroll;
+  height:fit-content;
+   }
+
+ #about-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+    grid-row-start: 1; 
+    grid-row-end: 9;
+    grid-column-start: 2;
+    grid-column-end: 11;
+    overflow: scroll;
+    height:fit-content;
+     }
+
+ .main-content h1 {
+      display: flex;
+      height: 100vh;
+      justify-content: left;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color: transparent
+    ;
+     }
+
+ .video-parent {
+      display: flex;
+      justify-content: center;
+      grid-row-start: 1; 
+      grid-row-end: 9;   
+      grid-column-start: 1;
+      grid-column-end: 11;  
+      position: absolute;  
+      z-index: 1;
+    }
+    
+  video {
+      width: 100vw; 
+      height: 100vh; 
+      object-fit: cover; 
+    }
+   
+  #hero-text {
+      position: absolute;
+      top: 50%; 
+      left: 50%; 
+      grid-row-start: 0; 
+       grid-row-end: 1;
+       grid-column-start: 2;
+       grid-column-end: 11;
+      transform: translate(-50%, -50%);
+      color: white; 
+      text-align: center;
+      z-index: 3; 
+    }
+   
+  .hero-message {
+      flex-direction: column;
+      padding: 2rem;
+    }
+   
+  #hero-text, h1 {
+      display: flex;
+      justify-content: left;
+      background-color: blue;
+      border-width: 10px;
+      margin: 0;
+    }
+
+/* ----- STORE CARD STYLING -----*/
  .store-card {
   position: relative; 
   width: 330px;
@@ -75,113 +211,4 @@ height:fit-content;
    background-color: transparent;
    margin: 0; 
  }
-
- nav {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: right;
-    grid-row-start: 0; 
-    grid-row-end: 1;
-    grid-column-start: 1;
-    grid-column-end: 11;
-    background-color: transparent;
- }
-
- .main-logo, h1{
-    width: fit-content;
-    grid-row-start: 1; 
-    grid-row-end: 9;
-    grid-column-start: 3;
-    grid-column-end: 9;
-    background-color: transparent;
- }
-
- .main-content h1 {
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
- }
- ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 50%;
-    grid-row-start: 0; 
-    grid-row-end: 1;
-    grid-column-start: 6;
-    grid-column-end: 9;
-    background-color: transparent;
- }
-
- li {
-    width: fit-content;
-    padding: 0.7rem;
-    list-style-type: none;
-    text-decoration: none;
-    background-color: transparent;
-    font-size: large;
- }
-
- li:hover {
-   width: fit-content;
-   list-style-type: none;
-   background-color: blue;
-   font-size: large;
- }
-
-
-.video-parent {
-   display: flex;
-   justify-content: center;
-   grid-row-start: 1; 
-   grid-row-end: 9;   
-   grid-column-start: 1;
-   grid-column-end: 11;  
-   position: absolute;  
-   z-index: 1;
- }
  
- video {
-   width: 100vw; 
-   height: 100vh; 
-   object-fit: cover; 
- }
-
- #hero-text {
-   position: absolute;
-   top: 50%; 
-   left: 50%; 
-   grid-row-start: 0; 
-    grid-row-end: 1;
-    grid-column-start: 2;
-    grid-column-end: 11;
-   transform: translate(-50%, -50%);
-   color: white; 
-   text-align: center;
-   z-index: 3; 
- }
-
- .hero-message {
-   flex-direction: column;
-   padding: 2rem;
- }
-
- #hero-text {
-   justify-content: center;
-   background-color: blue;
-   border-width: 10px;
- }
-
- #hero-text, h2 {
-   font-size: xx-large;
-   margin: 0;
- }
-
- #hero-text, h1 {
-   font-size: xx-large;
-   margin: 0;
- }
-

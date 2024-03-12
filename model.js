@@ -15,6 +15,7 @@ class Model {
     await this.client.connect();
   }
 
+// ------ Creates a 'stores' table if it doesn't already exist
   async setup(storeJson) {
     await this.client.query(`
       CREATE TABLE IF NOT EXISTS public.stores
@@ -27,10 +28,11 @@ class Model {
       );
     `);
 
+    // ------ Changes the owner of the table to "postgres"
     await this.client.query(`
       ALTER TABLE IF EXISTS public.stores OWNER to postgres;
     `);
-
+    // ------ Inserts the data from storeJson into the 'stores' table
     for (const store of storeJson) {
       const checkForStore = await this.client.query(`
         SELECT * FROM public.stores
@@ -41,6 +43,7 @@ class Model {
 
       console.log(checkForStore.rows);
 
+    // ----- Inserts into database if the store doesn't already exist
       if (checkForStore.rows.length === 0) {
         await this.client.query(`
           INSERT INTO public.stores (name, url, district)
@@ -51,6 +54,7 @@ class Model {
 
   }
 
+   // ------ Gets the stores from the database 
   async getAllStores() {
     const res = await this.client.query('SELECT * FROM public.stores');
     return res.rows;
