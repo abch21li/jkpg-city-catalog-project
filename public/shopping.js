@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
           let storesHTML = '';
           stores.forEach((store) => {
               const storeName = store['name'];
-              // let backgroundImagePath = store['imagePath'];
               const storeClass = 'store-card';
 
               storesHTML += `
